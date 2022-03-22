@@ -1,0 +1,104 @@
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+body{
+  text-align: center;
+}
+
+input{
+  margin: 10px;
+  height: 30px;
+  font-size: 20px;
+}
+
+button{
+  margin: 10px;
+  width: 70px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+ul{
+  font-size: 30px;
+}
+
+#gametable{
+  justify-content: center;
+  text-align: center;
+  width: 600px;
+  height: 600px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+td{
+  border: 4px solid white;
+  /*background-color: rgb(58, 224, 152);*/
+  background-color: wheat;
+  color: black;
+  font-size: 400%;
+  overflow: hidden;
+  height: 25%;
+  width: 25%;
+}
+
+p{
+  font-size: 30px;
+  margin: 0;
+}
+
+#playerShapes{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+#player1ShapeBox{
+  border: 4px solid black;
+  background-color: grey;
+  height: 150px;
+  width: 600px;
+}
+
+#player1Nums{
+  font-size: 30px;
+}
+
+#player2ShapeBox{
+  border: 4px solid black;
+  background-color: grey;
+  height: 150px;
+  width: 600px;
+}
+
+#player2Nums{
+  font-size: 30px;
+}
+
+.groupYellow{
+  background-color: wheat;
+}
+
+.groupGreen{
+  background-color: rgb(58, 224, 152);
+}
+
+#activeShapeP img{
+  margin: 0;
+  width: 60px;
+}
+
+#playerShapes img{
+  width: 100px;
+}
+
+#startsiteButton{
+  width: 100px;
+}
+
